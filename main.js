@@ -35,7 +35,7 @@ function mine_trip(channel, name) {
     
       } else{console.log("nick failed :C")} // testing only (verify nick)
     });
-    ws.send({cmd:"chat", channel})
+    ws.send({cmd:"chat", text: crypto.randomBytes(4).toString('base64') }) // send random message
   });
 }
 
