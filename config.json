@@ -1,6 +1,6 @@
 {
   "name":"sudo",
   "channel": "miningfortrips",
-  "limit": 25,
+  "limit": 5,
   "log": "./log.txt"
 }
