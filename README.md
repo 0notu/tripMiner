@@ -5,4 +5,6 @@ A simple [hack.chat](https://hack.chat) bot to mine tripcodes
 |name|limit|channel|output|
 |---|---|---|---|
 |username|trip amount|target channel|output file|
+
+
 Run [runMe.js](./src/runMe.js)
